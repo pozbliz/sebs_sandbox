@@ -9,13 +9,15 @@ _site/
 
 # Additional Ruby/bundler ignore for when you run: bundle install
 /vendor
+.bundle
 
-# Specific ignore for GitHub Pages
-# GitHub Pages will always use its own deployed version of pages-gem
-# This means GitHub Pages will NOT use your Gemfile.lock and therefore it is
-# counterproductive to check this file into the repository.
-# Details at https://github.com/github/pages-gem/issues/768
+# Dependency lockfile is regenerated locally and not required by Chirpy Starter.
 Gemfile.lock
+*.gem
+node_modules
+package-lock.json
+_sass/vendors
+assets/js/dist
 
 # Exclude folder to avoid publishing draft articles
 draft/*

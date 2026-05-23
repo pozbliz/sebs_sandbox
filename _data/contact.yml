@@ -1,0 +1,25 @@
+# The contact options.
+
+- type: github
+  icon: "fab fa-github"
+
+- type: twitter
+  icon: "fa-brands fa-x-twitter"
+
+- type: rss
+  icon: "fas fa-rss"
+  noblank: true
+
+# Uncomment and complete the url below to enable more contact options.
+#
+# - type: mastodon
+#   icon: "fab fa-mastodon"
+#   url: ""
+#
+# - type: linkedin
+#   icon: "fab fa-linkedin"
+#   url: ""
+#
+# - type: bluesky
+#   icon: "fa-brands fa-bluesky"
+#   url: ""
