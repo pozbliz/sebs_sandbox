@@ -20,5 +20,8 @@ Gemfile.lock
 # Exclude folder to avoid publishing draft articles
 draft/*
 
+# Local review guidance for Codex article-review skill
+editorial-brief.md
+
 # Jetbrains IDE folder
 .idea/*
