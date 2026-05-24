@@ -11,10 +11,6 @@
     {{- '&copy;' }}
     <time>{{ 'now' | date: '%Y' }}</time>
 
-    {% if site.social.links %}
-      <a href="{{ site.social.links[0] }}">{{ site.social.name }}</a>.
-    {% else %}
-      <em class="fst-normal">{{ site.social.name }}</em>.
-    {% endif %}
+    <em class="fst-normal">{{ site.social.name }}</em>.
   </p>
 </footer>
