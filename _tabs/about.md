@@ -12,3 +12,5 @@ I have been living in Japan.
 
 This blog is a way for me to share my learnings and experience working with AI tools, both in my actual job, and
 also in my free time when I work on my own projects (one of which is this blog).
+
+This site uses the [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy/) theme for Jekyll.
