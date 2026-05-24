@@ -22,8 +22,14 @@ assets/js/dist
 # Exclude folder to avoid publishing draft articles
 draft/*
 
+# Exclude generated article review reports
+review/
+
 # Local review guidance for Codex article-review skill
 editorial-brief.md
+
+# Local Chirpy/Jekyll publishing notes
+chirpy-reference.md
 
 # Jetbrains IDE folder
 .idea/*
